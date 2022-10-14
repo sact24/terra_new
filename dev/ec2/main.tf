@@ -4,7 +4,7 @@ provider "aws" {
 
 
 module "EC2" {
-  source = "../../../modules/EC2"
+  source = "../../modules/EC2"
 
 //adding variables defined in root module
   instance_name = "test"
