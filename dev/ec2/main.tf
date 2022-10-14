@@ -8,7 +8,7 @@ module "EC2" {
 
 //adding variables defined in root module
   instance_name = "test"
-  key = "test"
+  key = "terjen"
 }
 
 
