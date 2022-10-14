@@ -13,6 +13,7 @@
     variable "id" {
         description = "Security group ID"
         type = string
+        default = "sg-002f29d92358875a8"
     }
 
      
